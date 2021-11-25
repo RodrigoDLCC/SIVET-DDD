@@ -161,7 +161,7 @@ namespace TestProyecto_SIVET
             Assert.IsNotNull(detalles);
         }
         [TestMethod]
-        public  Buscar_Material()
+        //public void Buscar_Material()
         {
             MaterialService obj = new MaterialService();
 
