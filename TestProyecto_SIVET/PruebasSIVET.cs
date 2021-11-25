@@ -45,7 +45,7 @@ namespace TestProyecto_SIVET
             int x = user.RegistrarUsuario(dni, Nombre, Apellido, Direccion, Email, Telefono, Contrasenia);
             Assert.AreEqual(x, -1);
         }
-
+        /*
         [TestMethod]
         public void RegistroDetallePedido()
         {
@@ -53,7 +53,7 @@ namespace TestProyecto_SIVET
 
             bool x = user.RegistrarDetallePedido(new DetallePedido() {Pedido=new Pedido() {ID_Pedido=20},Material=new Material() {ID_Material=6},Cantidad=50,PrecioUnit=1,SubTotal=1});
             Assert.AreEqual(true,x);
-        }
+        }*/
 
         [TestMethod]
         public void Activar_Empleado()
