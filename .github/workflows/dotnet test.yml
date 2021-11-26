@@ -11,4 +11,4 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - name: Test
-      run: dotnet test
+      - run: dotnet test
