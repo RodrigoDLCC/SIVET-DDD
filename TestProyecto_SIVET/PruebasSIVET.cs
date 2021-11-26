@@ -165,8 +165,8 @@ namespace TestProyecto_SIVET
         {
             MaterialService obj = new MaterialService();
 
-            //List<Material> detalles = obj.BuscarMaterial("Pomello");
-            Assert.IsNotNull(obj);
+            List<Material> detalles = obj.BuscarMaterial("Pomello");
+            Assert.IsNotNull(detalles);
         }
         [TestMethod]
         public void Aumentar_Stock_Material()
